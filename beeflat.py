@@ -33,7 +33,6 @@ def parse_dinos(dinos):
         val = dinodict.get(key, [])
         val.append(dino)
         dinodict[key] = val
-    print 'dinos ', dinodict
     return dinodict
 
 
